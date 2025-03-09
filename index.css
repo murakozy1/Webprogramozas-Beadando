@@ -1,0 +1,224 @@
+
+table{
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/base_tile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border: 2px solid white;
+    opacity: 1;
+    border-radius: 7px;
+}
+
+body{
+    background-image:url(assets/theme.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 2000;
+}
+
+#map{
+    width: 43%;
+    padding-left: 100px;
+}
+
+h1{
+    text-align: left;
+}
+
+#table{
+    
+    float: left;
+}
+
+#title{
+    padding-left: 200px;
+}
+
+#tavasz{
+    background-color: lawngreen;
+    background-image: none;
+    border-radius: 5px;
+    border: 3px solid green;
+    width: 70px;
+    height: 70px;
+}
+
+#nyar{
+    background-color: rgb(255, 255, 56);
+    background-image: none;
+    border-radius: 5px;
+    border: 3px solid rgb(119, 119, 1);
+    width: 70px;
+    height: 70px;
+}
+
+#osz{
+    background-color: rgb(201, 178, 96);
+    background-image: none;
+    border-radius: 5px;
+    border: 3px solid rgb(124, 89, 7);
+    width: 70px;
+    height: 70px;
+}
+
+#tel{
+    background-color: aqua;
+    background-image: none;
+    border-radius: 5px;
+    border: 3px solid blue;
+    width: 70px;
+    height: 70px;
+}
+
+#nextShapeTable{
+    border: 3px solid grey;
+    float:right;
+    margin-right: 15%;
+    margin-left: auto;
+}
+
+#nextShapeTable td{
+    background-image: none;
+}
+
+#timeTable{
+    border: 3px solid grey;
+    float:right;
+    margin-right: 15%;
+    margin-left: auto;    
+}
+
+#timeTable td{
+    width: 20px;
+    height: 10px;
+    
+}
+
+#timeCell{
+    background-image: none;
+    font-size: 30px;
+}
+
+#timeEmoji{
+    background-image: url(assets/clock.png);
+}
+
+#nextShapeButtons{
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+#nextShapeText{
+    float:right;
+    margin-right: 15%;
+}
+
+#currentSeasonText{
+    float: left;
+    padding-left: 15%;
+}
+
+#timeLeft{
+    float: left;
+    padding-left: 15%;
+}
+
+#allTimeLeft{
+    float: left;
+    padding-left: 15%;
+}
+
+#missions{
+    width: 100%;
+}
+
+#missionTable{
+    background-color: none;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+}
+
+#missionTable td{
+    width: 640px;
+    height: 180px;
+    background-color: none;
+    
+    font-weight: bolder;
+    font-size: 24px;
+    
+}
+
+#mission1{
+    background-image: url(missions/hatarvidek.png);
+    border: none;
+}
+
+#mission2{
+    background-image: url(missions/erdoszele.png);
+    border: none;
+}
+
+#mission3{
+    background-image: url(missions/krumpliontozes.png);
+    border: none;
+}
+
+#mission4{
+    background-image: url(missions/almosvolgy.png);
+    border: none;
+}
+
+hr{
+    
+    width: 100%;
+}
+
+.mrButton{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.mrButton:hover{
+    background-color: greenyellow;
+}
+
+#seasonsTable{
+    background: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#sideBar{
+    float: right;
+    margin-right: 20%;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+#totalScoreText{
+    font-size: 22px;
+}
